@@ -1,0 +1,45 @@
+h1 {
+    color: white;
+    text-align: center;
+    background-color: gray;
+    margin: 0;
+    padding: 45px;
+}
+
+body {
+    margin: 0;
+}
+
+input {
+    width: 170px;
+    margin: 5px;
+}
+
+/* #submitNewEmployeeBtn {
+    text-align: right;
+} */
+
+h2,
+h3 {
+    margin: 10px
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 15px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 25%;
+    padding: 10px;
+}
+
+#toptable {
+    background-color: lightgray;
+}

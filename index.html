@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="salary.css" rel="stylesheet" />
+    <script src="jquery1.js"></script>
+    <script src="salaryCal.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Salary Calculator</h1>
+
+
+    <div id="addEmployeeForm">
+        <h2>Add Employee</h2>
+
+
+        <input placeholder="First Name" id="firstNameInput" type="text">
+
+        <input placeholder="Last Name" id="lastNameInput" type="text">
+
+        <input placeholder="ID" id="idNumberInput" type="number">
+
+        <input placeholder="Title" id="jobTitleInput" type="text">
+
+        <input placeholder="Annual Salary" id="annualSalaryInput" type="text">
+        <br>
+        <br>
+        <button id="submitNewEmployeeBtn">Submit</button>
+    </div>
+
+    <div id="employeeNewFormSection">
+        <br>
+        <h3>Employees:</h3>
+
+        <table id="toptable">
+            <tr>
+                <th>First Name:</th>
+                <th>Last Name:</th>
+                <th>ID Number:</th>
+                <th>Job Title:</th>
+                <th>Annual Salary:</th>
+                <th></th>
+            </tr>
+        </table>
+
+        <table id="addedEmployee">
+            <tr>
+                <!--Employees will be added here inside a table-->
+                <tb></tb>
+                <tb></tb>
+                <tb></tb>
+                <tb></tb>
+                <tb></tb>
+                <tb></tb>
+            </tr>
+        </table>
+    </div>
+
+    <div id="budgetSection">
+
+        <h3>Monthly Budget to Pay Employees: $<span id="budgetNeeded">BUDGETNEEDED</span></h3>
+
+        <!--the updated monthly employee payment budget will go here-->
+
+    </div>
+
+</body>
+
+</html>
