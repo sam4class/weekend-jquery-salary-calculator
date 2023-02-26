@@ -104,7 +104,8 @@ function addingBudget() {
     let monthlyCost = totalCost / 12;
     let nowBudget = $('#budgetNeeded');
     nowBudget.empty();
-    nowBudget.append(monthlyCost);
+    nowBudget.append(Math.round(monthlyCost));
+
 
     /*If the total monthly cost exceeds $20,000, add a 
     red background color to the total monthly cost.*/
