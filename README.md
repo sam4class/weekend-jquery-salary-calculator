@@ -4,14 +4,14 @@ Our Goals in this project:
 
 We needed to make a form that took in, through a 'submit' button, employee information: First and Last Name, ID Number, Job Title, and Annual Salary. 
 
-With this information, stored on a table, we needed to show what the monthly budget was to pay for having the current group of employees. If the number hit $20,000 or more, we needed to turn the budget red.
+With this information, stored on a table, we needed to show what the monthly budget to pay the current group of employees. If the number hit $20,000 or more, we needed to turn the budget red.
 
 During this assignment we needed to:
 <ul>
   <li>make and clear fields</li>
   <li>make working 'submit' and 'delete' buttons</li> 
-  <li>figure out how to get the monthly salary</li>
-  <li>add all the monthly salaries togther and display that total</li>
+  <li>get the monthly salary</li>
+  <li>add all monthly salaries togther and display that total on the DOM</li>
   <li>target an element on the DOM to turn it red.</li>
 </ul>
 
