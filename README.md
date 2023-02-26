@@ -33,3 +33,11 @@ Needed to link jQuery
 <img width="1440" alt="Screenshot 2023-02-25 at 6 09 30 PM" src="https://user-images.githubusercontent.com/78459694/221385332-17058d4b-868f-40a7-aa40-8f8bd2a4127a.png">
 
 <h3>
+
+
+<h3>Thanks To!</h3>
+<ul>
+    <li>Key</li>
+    <li>Emma</li>
+    <li>My Fellow Aquamarine Team mates</li>
+</ul>
