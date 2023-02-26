@@ -30,7 +30,7 @@ Needed to link jQuery
 
 <h3>ScreenShot of final result:</h3>
 
-<img width="1" alt="Screenshot 2023-02-25 at 6 09 30 PM" src="https://user-images.githubusercontent.com/78459694/221385332-17058d4b-868f-40a7-aa40-8f8bd2a4127a.png"/>
+<img width="1400" alt="Screenshot of salary calculator" src="salaryScreenShot.png"/>
 
 <h3>
 
