@@ -46,7 +46,7 @@ function addNewEmployeeInfo() {
     const lastNameInputValue = $('#lastNameInput').val();
     const idNumberInputValue = $('#idNumberInput').val();
     const jobTitleInputValue = $('#jobTitleInput').val();
-    const annualSalaryInputValue = $('#annualSalaryInput').val();
+    const annualSalaryInputValue = Number($('#annualSalaryInput').val());
     //making sure the values were added
     console.log(`Input Values:
         ${firstNameInputValue},
