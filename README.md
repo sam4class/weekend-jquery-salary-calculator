@@ -15,7 +15,7 @@ During this assignment we needed to:
   <li>target an element on the DOM to turn it red.</li>
 </ul>
 
-<h3>For this project I used the resources given to us this perivous week:</h3>
+<h3>For this project I used the resources given to us this previous week:</h3>
 Dev video: jQuery Web Apps: Part 2
 <br>
 Dev video: JQuery Practical
@@ -30,7 +30,7 @@ Needed to link jQuery
 
 <h3>ScreenShot of final result:</h3>
 
-<img width="1440" alt="Screenshot 2023-02-25 at 6 09 30 PM" src="https://user-images.githubusercontent.com/78459694/221385332-17058d4b-868f-40a7-aa40-8f8bd2a4127a.png" width="120"/>
+<img width="1" alt="Screenshot 2023-02-25 at 6 09 30 PM" src="https://user-images.githubusercontent.com/78459694/221385332-17058d4b-868f-40a7-aa40-8f8bd2a4127a.png"/>
 
 <h3>
 

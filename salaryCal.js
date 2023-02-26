@@ -26,6 +26,7 @@ function deleteEmployee() {
         the array we have been pushing into 'employee'*/
     let employeeToDeleteName = $(this).parent().siblings().first().text();
     console.log('Name to delete:', employeeToDeleteName);
+    
     //loop through emplyee for name
     for (let person of employee) {
         if (person['First Name'] !== employeeToDeleteName) {
@@ -35,6 +36,14 @@ function deleteEmployee() {
     //replace old array with new array because it contains it all but the deleted item
     employee = newEmployee;
     render();
+
+    //////Stretch Goal: I think I did it!!!!!//////
+    //Well, sort of worked.  It will work as long as two employees don't share the same name . . .//
+    if(newEmployee !== employee){
+        $('#budgetNeeded').empty();
+    }
+    //then run this function again to get the new total
+    addingBudget();
 }
 
 function addNewEmployeeInfo() {
@@ -105,17 +114,17 @@ function addingBudget() {
     let nowBudget = $('#budgetNeeded');
     nowBudget.empty();
     nowBudget.append(Math.round(monthlyCost));
-
-
+   
     /*If the total monthly cost exceeds $20,000, add a 
     red background color to the total monthly cost.*/
 
     if (monthlyCost >= 20000) {
         console.log('Current total budget', monthlyCost);
         $('#budgetNeeded').css('background-color', 'red');
-    }
+    }else{
+        $('#budgetNeeded').css('background-color', 'white');
 }
-
+}
 
 function render() {
     //am i here?
