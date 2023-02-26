@@ -10,27 +10,29 @@ function onReady() {
     console.log('DOM is loaded');
     //create an action when submit button is pressed
     $('#submitNewEmployeeBtn').on('click', addNewEmployeeInfo);
-    //Listner for the budget updates
     let nowBudget = $('#budgetNeeded');
     nowBudget.empty();
     nowBudget.append(budget);
-    //listener for delete button- we can do this!
+    //listener for delete button- I can do this!
     $('#addedEmployee').on('click', '#deleteBtn', deleteEmployee);
 
 }
 
 function deleteEmployee() {
     console.log('Inside deleteEmployee()');
-
+    //make a variable to store the new array
     let newEmployee = [];
+    /*target the first property to grab the iformation to delete from 
+        the array we have been pushing into 'employee'*/
     let employeeToDeleteName = $(this).parent().siblings().first().text();
     console.log('Name to delete:', employeeToDeleteName);
-
+    //loop through emplyee for name
     for (let person of employee) {
         if (person['First Name'] !== employeeToDeleteName) {
             newEmployee.push(person);
         }
     }
+    //replace old array with new array because it contains it all but the deleted item
     employee = newEmployee;
     render();
 }
