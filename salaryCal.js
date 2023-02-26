@@ -34,11 +34,13 @@ function deleteEmployee() {
         }
     }
     //replace old array with new array because it contains it all but the deleted item
+    //the only problem is, this doesn't work if two employees have the same name, then both delete :(
+    //i can't fingure out how to fix this
     employee = newEmployee;
     render();
 
     //////Stretch Goal: I think I did it!!!!!//////
-    //Well, sort of worked.  It will work as long as two employees don't share the same name . . .//
+
     if(newEmployee !== employee){
         $('#budgetNeeded').empty();
     }
